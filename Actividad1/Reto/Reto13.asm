@@ -1,0 +1,14 @@
+@R0
+D=M
+@CONT
+D;JGE
+@R1
+M=1
+@LOOP
+0;JMP
+(CONT)
+@R1
+M=-1
+(LOOP)
+@LOOP
+0;JMP
